@@ -6,7 +6,7 @@ const options = [
     {value: "AC", operation: 0, function: true },
     {value: "±", operation: "-",  function: true },
     {value: "%", operation: '%', function: true},
-    {value: "/", operation: '/', operator: true},
+    {value: "÷", operation: '/', operator: true},
 
     {value: '7', operation: 0, numeric: true},
     {value: '8', operation: 0, numeric: true},
@@ -22,7 +22,6 @@ const options = [
     {value: '2', operation: 0, numeric: true},
     {value: '3', operation: 0, numeric: true},
     {value: "+", operation: '+', operator: true},
-
 
     {value: '0', operation: 0, numeric: true, lastRow: true},
     {value: ".", operation: '.',  function: true, lastRow: true },
